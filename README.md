@@ -1,4 +1,5 @@
 pl0rx
 =====
 
-pl/0 for retro in implish
+A pl/0 implementation for retro, created with [implish](http://github.com/tangentstorm/implish/).
+
