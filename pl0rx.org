@@ -1,0 +1,53 @@
+#+title: pl0rx
+#+author: Michal J Wallace
+#+date: <2013-09-15 Sun>
+
+* pl0rx: a PL/0 to retro transpiler, written in implish.
+
+*PL/0* is a minimalist imperative programming language created by Niklaus Wirth in the 1970's for teaching compiler construction.
+
+*Retro* is a small concatenative language maintained by Charles Childers that runs on a simple and highly portable virtual machine.
+
+*Implish* is an imperative meta-programming language currently in development by Michal J Wallace. (That's me.)
+
+This document contains the complete source code for *pl0rx*, a PL/0-to-retro transpiler, written in implish and presented as a literate program.
+
+My goals in writing this paper are threefold:
+
+- put implish to the test as a meta-compiler.
+- provide a tutorial introduction to implish.
+- present a simple introduction to compilers in general.
+
+* TODO The PL/0 Language
+** TODO Example program
+** TODO Wirth's original EBNF
+** TODO Implish translation.
+
+* TODO Compilation Stages
+** TODO Lexical Analysis
+** TODO Parsing
+** TODO Tree transformation
+** TODO Code generation
+
+* TODO Implementation Plan
+** TODO Iterative approach
+
+* Acknowledgements and Bibliography
+
+The code presented here is based on an earlier PL/0-to-retro compiler (also called pl0rx) that I wrote as a backend to the [PL/0 language tools](https://github.com/tangentstorm/PL0-Language-Tools) by Samuel G. D. Williams. Charles Childers provided much helpful advice and guidance for that implementation.
+
+This program was written in and published with org-babel, a literate programming and outlining environment for emacs.
+
+Implish and the compiler presented here is most heavily influenced by four sources:
+
+- The books /Algorithms + Data Structures = Programs/ (which introduced PL/0) and /Compiler Construction/ (an expanded followup covering a somewhat larger language called Oberon-0), both by Niklaus Wirth.
+
+- /Language Implementation Patterns/ and the two /Definitive ANTLR Reference/ books by Terence Parr.
+
+- John McCarthy's 1960 paper, [[http://www-formal.stanford.edu/jmc/recursive.html][Recursive Functions of Symbolic Expressions and Their Computation by Machine (Part I)]], which introduced the LISP language to the world.
+
+- Various papers on combinators in haskell, most notably by Simon Peyton Jones.
+
+* TODO [/] to do list
+** TODO find the simon peyton jones video about combinators.
+
